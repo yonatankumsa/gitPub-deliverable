@@ -16,3 +16,9 @@ app.get("/drinks", (req,res)=>{
         drinks : drinks
     })
 })
+
+    app.get("/drinks/:id/", (req,res)=>{
+        res.send(req.params.id)
+    })
+
+
