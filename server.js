@@ -17,8 +17,11 @@ app.get("/drinks", (req,res)=>{
     })
 })
 
-    app.get("/drinks/:id/", (req,res)=>{
-        res.send(req.params.id)
-    })
+    // app.get("/drinks/:id/", (req,res)=>{
+    //     res.send(req.params.id)
+    // })
 
 
+app.get("/drink/:indexOfDrinksArray", (req,res)=>{
+res.render("show", {id:drinks[req.params.indexOfDrinksArray]})
+})

@@ -13,7 +13,7 @@
       {% for i in drinks %}
 
       <li>
-        {{ i.name }}
+       <a href="http://localhost:3000/drink/{{forloop.index0}}">  {{ i.name }}</a>
       </li>
       {% endfor %}
     </ul>
