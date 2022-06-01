@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title></title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
 
-<body>
+  <body>
     <h1>Welcome to gitPub</h1>
-   
-</body>
-<style>
-    body { background-color:rgb(255, 153, 0); color:white}
+    <ul>
+      {% for i in drinks %}
+      
+       <li>
+          
+        {{ i.name }}
+      </li>
+      {% endfor %}
+    </ul>
     
+  </body>
+  <style>
+    body {
+      background-color: rgb(255, 153, 0);
+      color: white;
+    }
   </style>
 </html>
