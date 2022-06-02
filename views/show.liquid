@@ -15,16 +15,17 @@
        <h2> {{id.name}}</h2>
        <h3>Price: {{id.price}}</h3>
        <br>
-     <h3>  <a href="http://localhost:3000/drinks/">back</a></h3>
-       <br>
        <img src="{{id.image}}.png"/>
+       <br>
+       <h4>  <a href="http://localhost:3000/drinks/">back</a></h4>
   </body>
   <style>
     body {
-      background-color: cadetblue;
-      color: rgb(10, 17, 31);
+      background-color: rgb(255, 120, 30);
+      color: rgb(0, 0, 0);
       text-align: center;
       font-family: 'ZCOOL QingKe HuangYou', cursive;
+      filter: drop-shadow(10px 10px 5px black);
     }
     a {
       color: wheat;
@@ -36,10 +37,15 @@
   
     h2, h3 {
       color: wheat;
-      font-size: 50px;
+      font-size: 30px;
     }
     h1 {
       font-size: 75px;
+    }
+    img{
+        width:50%;
+        height:50%;
+        border-radius: 10%;
     }
   </style>
 </html>
