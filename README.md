@@ -3,6 +3,7 @@
 # Git Pub
 
 ![](https://imgur.com/MfZn3wW.png)
+![](https://imgur.com/1yZanyi)
 
 Make a pub app that displays data inside server-side rendered views.
 
